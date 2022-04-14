@@ -10,7 +10,7 @@ const Services = () => {
        .then(data => setServices(data))
     },[])
     return (
-        <div className='services-title'>
+        <div id="services" className='container'>
             <h1 className='mt-5 '>Services</h1>
             <div className='services-container'>
             {
